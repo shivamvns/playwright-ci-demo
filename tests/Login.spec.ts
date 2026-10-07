@@ -5,7 +5,7 @@ test('user can log in and log out', async ({ page }) => {
   await page.goto('/web/index.php/auth/login');
 
   // Enter the public demo credentials.
-  await page.locator("input[placeholder='Username']").fill('Admin');
+  await page.locator("input[placeholder='Username']").fill('Aadmin');
   await page.locator("input[placeholder='Password']").fill('admin123');
 
   // Log in.
